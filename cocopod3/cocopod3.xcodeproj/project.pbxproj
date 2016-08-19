@@ -14,9 +14,12 @@
 		63A439E11D6708F800FE1223 /* cocopod3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 63A439DF1D6708F800FE1223 /* cocopod3.xcdatamodeld */; };
 		63A439E31D6708F800FE1223 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63A439E21D6708F800FE1223 /* Assets.xcassets */; };
 		63A439E61D6708F800FE1223 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63A439E41D6708F800FE1223 /* LaunchScreen.storyboard */; };
+		DFDC856AC62FE17EC9A254DB /* libPods-cocopod3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 01BEA11CA3D2E836F6B35C76 /* libPods-cocopod3.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01BEA11CA3D2E836F6B35C76 /* libPods-cocopod3.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-cocopod3.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16AAB70E7EF711732A7C105E /* Pods-cocopod3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cocopod3.release.xcconfig"; path = "Pods/Target Support Files/Pods-cocopod3/Pods-cocopod3.release.xcconfig"; sourceTree = "<group>"; };
 		63A439D01D6708F800FE1223 /* cocopod3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cocopod3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63A439D41D6708F800FE1223 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		63A439D61D6708F800FE1223 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -28,6 +31,7 @@
 		63A439E21D6708F800FE1223 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63A439E51D6708F800FE1223 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63A439E71D6708F800FE1223 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF2B0FD6F60E494F66E4EE08 /* Pods-cocopod3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cocopod3.debug.xcconfig"; path = "Pods/Target Support Files/Pods-cocopod3/Pods-cocopod3.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +39,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFDC856AC62FE17EC9A254DB /* libPods-cocopod3.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		539EA82FB0C0EC22D29C3EC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01BEA11CA3D2E836F6B35C76 /* libPods-cocopod3.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		63A439C71D6708F800FE1223 = {
 			isa = PBXGroup;
 			children = (
 				63A439D21D6708F800FE1223 /* cocopod3 */,
 				63A439D11D6708F800FE1223 /* Products */,
+				A6D3766F2B4C683881F13EE4 /* Pods */,
+				539EA82FB0C0EC22D29C3EC5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,6 +97,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A6D3766F2B4C683881F13EE4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF2B0FD6F60E494F66E4EE08 /* Pods-cocopod3.debug.xcconfig */,
+				16AAB70E7EF711732A7C105E /* Pods-cocopod3.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -89,9 +113,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 63A439EA1D6708F800FE1223 /* Build configuration list for PBXNativeTarget "cocopod3" */;
 			buildPhases = (
+				A3ED05C1A537B1F266FB49F7 /* Check Pods Manifest.lock */,
 				63A439CC1D6708F800FE1223 /* Sources */,
 				63A439CD1D6708F800FE1223 /* Frameworks */,
 				63A439CE1D6708F800FE1223 /* Resources */,
+				870D93DAEAC5E177CC32F1BC /* Embed Pods Frameworks */,
+				C439B4A0E77A3E2C43D222A5 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -146,6 +173,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		870D93DAEAC5E177CC32F1BC /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-cocopod3/Pods-cocopod3-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3ED05C1A537B1F266FB49F7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C439B4A0E77A3E2C43D222A5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-cocopod3/Pods-cocopod3-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		63A439CC1D6708F800FE1223 /* Sources */ = {
@@ -265,6 +340,7 @@
 		};
 		63A439EB1D6708F800FE1223 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF2B0FD6F60E494F66E4EE08 /* Pods-cocopod3.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = cocopod3/Info.plist;
@@ -276,6 +352,7 @@
 		};
 		63A439EC1D6708F800FE1223 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16AAB70E7EF711732A7C105E /* Pods-cocopod3.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = cocopod3/Info.plist;
@@ -304,6 +381,7 @@
 				63A439EC1D6708F800FE1223 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
