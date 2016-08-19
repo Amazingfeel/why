@@ -1,12 +1,22 @@
 PODS:
+  - AMap3DMap (4.2.0):
+    - AMapFoundation (~> 1.2)
+  - AMapFoundation (1.2.0)
+  - AMapSearch (4.2.0):
+    - AMapFoundation (~> 1.0)
   - SDWebImage (3.8.1):
     - SDWebImage/Core (= 3.8.1)
   - SDWebImage/Core (3.8.1)
 
 DEPENDENCIES:
+  - AMap3DMap
+  - AMapSearch
   - SDWebImage (~> 3.8.1)
 
 SPEC CHECKSUMS:
+  AMap3DMap: 35a5e1ce80796ecf996b2c7b847b4ac94e97e448
+  AMapFoundation: 8acc2bf4eed79aab4d21002ddb8b24a6f3f3621c
+  AMapSearch: 788020fca7ed18819e8bc2bfca716a6775a05ada
   SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
 
 COCOAPODS: 0.39.0

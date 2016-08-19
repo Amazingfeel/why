@@ -5,5 +5,7 @@
 
 target 'cocopod3' do
 pod 'SDWebImage', '~> 3.8.1'
+pod 'AMap3DMap'
+pod 'AMapSearch'
 end
 
