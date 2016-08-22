@@ -14,6 +14,17 @@
 		63A439E11D6708F800FE1223 /* cocopod3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 63A439DF1D6708F800FE1223 /* cocopod3.xcdatamodeld */; };
 		63A439E31D6708F800FE1223 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63A439E21D6708F800FE1223 /* Assets.xcassets */; };
 		63A439E61D6708F800FE1223 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63A439E41D6708F800FE1223 /* LaunchScreen.storyboard */; };
+		63E982F71D6A85F70017E598 /* TencentOpenApi_IOS_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 63E982F51D6A85F70017E598 /* TencentOpenApi_IOS_Bundle.bundle */; };
+		63E982F81D6A85F70017E598 /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63E982F61D6A85F70017E598 /* TencentOpenAPI.framework */; };
+		63E982FA1D6A867A0017E598 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63E982F91D6A867A0017E598 /* Security.framework */; };
+		63E982FC1D6A86890017E598 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 63E982FB1D6A86890017E598 /* libiconv.tbd */; };
+		63E982FE1D6A86920017E598 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63E982FD1D6A86920017E598 /* SystemConfiguration.framework */; };
+		63E983001D6A869C0017E598 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63E982FF1D6A869C0017E598 /* CoreGraphics.framework */; };
+		63E983021D6A86AA0017E598 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 63E983011D6A86AA0017E598 /* libsqlite3.tbd */; };
+		63E983041D6A86B40017E598 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63E983031D6A86B40017E598 /* CoreTelephony.framework */; };
+		63E983061D6A86C10017E598 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 63E983051D6A86C10017E598 /* libstdc++.tbd */; };
+		63E983081D6A86C80017E598 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 63E983071D6A86C80017E598 /* libz.tbd */; };
+		63E9830B1D6A87C50017E598 /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E9830A1D6A87C50017E598 /* MeViewController.m */; };
 		DFDC856AC62FE17EC9A254DB /* libPods-cocopod3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 01BEA11CA3D2E836F6B35C76 /* libPods-cocopod3.a */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +42,18 @@
 		63A439E21D6708F800FE1223 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63A439E51D6708F800FE1223 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63A439E71D6708F800FE1223 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63E982F51D6A85F70017E598 /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
+		63E982F61D6A85F70017E598 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TencentOpenAPI.framework; path = cocopod3/TencentOpenAPI.framework; sourceTree = "<group>"; };
+		63E982F91D6A867A0017E598 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		63E982FB1D6A86890017E598 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		63E982FD1D6A86920017E598 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		63E982FF1D6A869C0017E598 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		63E983011D6A86AA0017E598 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		63E983031D6A86B40017E598 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		63E983051D6A86C10017E598 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		63E983071D6A86C80017E598 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		63E983091D6A87C50017E598 /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
+		63E9830A1D6A87C50017E598 /* MeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = "<group>"; };
 		CF2B0FD6F60E494F66E4EE08 /* Pods-cocopod3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cocopod3.debug.xcconfig"; path = "Pods/Target Support Files/Pods-cocopod3/Pods-cocopod3.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -39,7 +62,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63E983081D6A86C80017E598 /* libz.tbd in Frameworks */,
+				63E983061D6A86C10017E598 /* libstdc++.tbd in Frameworks */,
+				63E983041D6A86B40017E598 /* CoreTelephony.framework in Frameworks */,
+				63E983021D6A86AA0017E598 /* libsqlite3.tbd in Frameworks */,
+				63E983001D6A869C0017E598 /* CoreGraphics.framework in Frameworks */,
+				63E982FE1D6A86920017E598 /* SystemConfiguration.framework in Frameworks */,
+				63E982FC1D6A86890017E598 /* libiconv.tbd in Frameworks */,
+				63E982FA1D6A867A0017E598 /* Security.framework in Frameworks */,
 				DFDC856AC62FE17EC9A254DB /* libPods-cocopod3.a in Frameworks */,
+				63E982F81D6A85F70017E598 /* TencentOpenAPI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -49,6 +81,15 @@
 		539EA82FB0C0EC22D29C3EC5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				63E983071D6A86C80017E598 /* libz.tbd */,
+				63E983051D6A86C10017E598 /* libstdc++.tbd */,
+				63E983031D6A86B40017E598 /* CoreTelephony.framework */,
+				63E983011D6A86AA0017E598 /* libsqlite3.tbd */,
+				63E982FF1D6A869C0017E598 /* CoreGraphics.framework */,
+				63E982FD1D6A86920017E598 /* SystemConfiguration.framework */,
+				63E982FB1D6A86890017E598 /* libiconv.tbd */,
+				63E982F91D6A867A0017E598 /* Security.framework */,
+				63E982F61D6A85F70017E598 /* TencentOpenAPI.framework */,
 				01BEA11CA3D2E836F6B35C76 /* libPods-cocopod3.a */,
 			);
 			name = Frameworks;
@@ -75,10 +116,13 @@
 		63A439D21D6708F800FE1223 /* cocopod3 */ = {
 			isa = PBXGroup;
 			children = (
+				63E982F51D6A85F70017E598 /* TencentOpenApi_IOS_Bundle.bundle */,
 				63A439D61D6708F800FE1223 /* AppDelegate.h */,
 				63A439D71D6708F800FE1223 /* AppDelegate.m */,
 				63A439D91D6708F800FE1223 /* ViewController.h */,
 				63A439DA1D6708F800FE1223 /* ViewController.m */,
+				63E983091D6A87C50017E598 /* MeViewController.h */,
+				63E9830A1D6A87C50017E598 /* MeViewController.m */,
 				63A439DC1D6708F800FE1223 /* Main.storyboard */,
 				63A439E21D6708F800FE1223 /* Assets.xcassets */,
 				63A439E41D6708F800FE1223 /* LaunchScreen.storyboard */,
@@ -166,6 +210,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63E982F71D6A85F70017E598 /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
 				63A439E61D6708F800FE1223 /* LaunchScreen.storyboard in Resources */,
 				63A439E31D6708F800FE1223 /* Assets.xcassets in Resources */,
 				63A439DE1D6708F800FE1223 /* Main.storyboard in Resources */,
@@ -231,6 +276,7 @@
 				63A439D81D6708F800FE1223 /* AppDelegate.m in Sources */,
 				63A439D51D6708F800FE1223 /* main.m in Sources */,
 				63A439E11D6708F800FE1223 /* cocopod3.xcdatamodeld in Sources */,
+				63E9830B1D6A87C50017E598 /* MeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,8 +389,45 @@
 			baseConfigurationReference = CF2B0FD6F60E494F66E4EE08 /* Pods-cocopod3.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/cocopod3",
+				);
 				INFOPLIST_FILE = cocopod3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"SDWebImage\"",
+					"-l\"c++\"",
+					"-l\"stdc++.6.0.9\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AMapFoundationKit\"",
+					"-framework",
+					"\"AMapSearchKit\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MAMapKit\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-fobjc-arc",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jingqi.cocopod3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -355,8 +438,45 @@
 			baseConfigurationReference = 16AAB70E7EF711732A7C105E /* Pods-cocopod3.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/cocopod3",
+				);
 				INFOPLIST_FILE = cocopod3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"SDWebImage\"",
+					"-l\"c++\"",
+					"-l\"stdc++.6.0.9\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AMapFoundationKit\"",
+					"-framework",
+					"\"AMapSearchKit\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MAMapKit\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-fobjc-arc",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jingqi.cocopod3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
