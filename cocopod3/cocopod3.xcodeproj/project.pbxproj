@@ -14,6 +14,22 @@
 		63A439E11D6708F800FE1223 /* cocopod3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 63A439DF1D6708F800FE1223 /* cocopod3.xcdatamodeld */; };
 		63A439E31D6708F800FE1223 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63A439E21D6708F800FE1223 /* Assets.xcassets */; };
 		63A439E61D6708F800FE1223 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63A439E41D6708F800FE1223 /* LaunchScreen.storyboard */; };
+		63CC4E8C1D6BE48F00135419 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CC4E8B1D6BE48F00135419 /* ImageViewController.m */; };
+		63CC4E971D6BE5BE00135419 /* Auth.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CC4E8F1D6BE5BE00135419 /* Auth.m */; };
+		63CC4E981D6BE5BE00135419 /* Conf.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CC4E911D6BE5BE00135419 /* Conf.m */; };
+		63CC4E991D6BE5BE00135419 /* TXQcloudFrSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CC4E931D6BE5BE00135419 /* TXQcloudFrSDK.m */; };
+		63CC4E9A1D6BE5BE00135419 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CC4E961D6BE5BE00135419 /* NSData+Base64.m */; };
+		63CC4E9F1D6BF58E00135419 /* face.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63CC4E9E1D6BF58E00135419 /* face.jpg */; };
+		63CC4EA11D6C2A0B00135419 /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63CC4EA01D6C2A0B00135419 /* iflyMSC.framework */; };
+		63CC4EA31D6C2A3900135419 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63CC4EA21D6C2A3900135419 /* AVFoundation.framework */; };
+		63CC4EA51D6C2A4E00135419 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63CC4EA41D6C2A4E00135419 /* Foundation.framework */; };
+		63CC4EA71D6C2A6100135419 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63CC4EA61D6C2A6100135419 /* AudioToolbox.framework */; };
+		63CC4EA91D6C2A6A00135419 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63CC4EA81D6C2A6A00135419 /* UIKit.framework */; };
+		63CC4EAB1D6C2A7E00135419 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63CC4EAA1D6C2A7E00135419 /* CoreLocation.framework */; };
+		63CC4EAD1D6C2A8D00135419 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63CC4EAC1D6C2A8D00135419 /* AddressBook.framework */; };
+		63CC4EAF1D6C2A9500135419 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63CC4EAE1D6C2A9500135419 /* QuartzCore.framework */; };
+		63CC4EB21D6C2AEE00135419 /* IflyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CC4EB11D6C2AEE00135419 /* IflyViewController.m */; };
+		63CC4EB51D6C303200135419 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63CC4EB41D6C303200135419 /* MobileCoreServices.framework */; };
 		63E982F71D6A85F70017E598 /* TencentOpenApi_IOS_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 63E982F51D6A85F70017E598 /* TencentOpenApi_IOS_Bundle.bundle */; };
 		63E982F81D6A85F70017E598 /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63E982F61D6A85F70017E598 /* TencentOpenAPI.framework */; };
 		63E982FA1D6A867A0017E598 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63E982F91D6A867A0017E598 /* Security.framework */; };
@@ -25,6 +41,7 @@
 		63E983061D6A86C10017E598 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 63E983051D6A86C10017E598 /* libstdc++.tbd */; };
 		63E983081D6A86C80017E598 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 63E983071D6A86C80017E598 /* libz.tbd */; };
 		63E9830B1D6A87C50017E598 /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E9830A1D6A87C50017E598 /* MeViewController.m */; };
+		63E983111D6AD63C0017E598 /* UIImage+CornerImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E983101D6AD63C0017E598 /* UIImage+CornerImage.m */; };
 		DFDC856AC62FE17EC9A254DB /* libPods-cocopod3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 01BEA11CA3D2E836F6B35C76 /* libPods-cocopod3.a */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +59,29 @@
 		63A439E21D6708F800FE1223 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63A439E51D6708F800FE1223 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63A439E71D6708F800FE1223 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63CC4E8A1D6BE48F00135419 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		63CC4E8B1D6BE48F00135419 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		63CC4E8E1D6BE5BE00135419 /* Auth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Auth.h; sourceTree = "<group>"; };
+		63CC4E8F1D6BE5BE00135419 /* Auth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Auth.m; sourceTree = "<group>"; };
+		63CC4E901D6BE5BE00135419 /* Conf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Conf.h; sourceTree = "<group>"; };
+		63CC4E911D6BE5BE00135419 /* Conf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Conf.m; sourceTree = "<group>"; };
+		63CC4E921D6BE5BE00135419 /* TXQcloudFrSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXQcloudFrSDK.h; sourceTree = "<group>"; };
+		63CC4E931D6BE5BE00135419 /* TXQcloudFrSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXQcloudFrSDK.m; sourceTree = "<group>"; };
+		63CC4E951D6BE5BE00135419 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		63CC4E961D6BE5BE00135419 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		63CC4E9E1D6BF58E00135419 /* face.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = face.jpg; sourceTree = "<group>"; };
+		63CC4EA01D6C2A0B00135419 /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iflyMSC.framework; sourceTree = "<group>"; };
+		63CC4EA21D6C2A3900135419 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		63CC4EA41D6C2A4E00135419 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		63CC4EA61D6C2A6100135419 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		63CC4EA81D6C2A6A00135419 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		63CC4EAA1D6C2A7E00135419 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		63CC4EAC1D6C2A8D00135419 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		63CC4EAE1D6C2A9500135419 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		63CC4EB01D6C2AEE00135419 /* IflyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IflyViewController.h; sourceTree = "<group>"; };
+		63CC4EB11D6C2AEE00135419 /* IflyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IflyViewController.m; sourceTree = "<group>"; };
+		63CC4EB31D6C2BB300135419 /* Cocopods.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cocopods.pch; sourceTree = "<group>"; };
+		63CC4EB41D6C303200135419 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		63E982F51D6A85F70017E598 /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
 		63E982F61D6A85F70017E598 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TencentOpenAPI.framework; path = cocopod3/TencentOpenAPI.framework; sourceTree = "<group>"; };
 		63E982F91D6A867A0017E598 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
@@ -54,6 +94,8 @@
 		63E983071D6A86C80017E598 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		63E983091D6A87C50017E598 /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
 		63E9830A1D6A87C50017E598 /* MeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = "<group>"; };
+		63E9830F1D6AD63C0017E598 /* UIImage+CornerImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CornerImage.h"; sourceTree = "<group>"; };
+		63E983101D6AD63C0017E598 /* UIImage+CornerImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CornerImage.m"; sourceTree = "<group>"; };
 		CF2B0FD6F60E494F66E4EE08 /* Pods-cocopod3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cocopod3.debug.xcconfig"; path = "Pods/Target Support Files/Pods-cocopod3/Pods-cocopod3.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,6 +104,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63CC4EB51D6C303200135419 /* MobileCoreServices.framework in Frameworks */,
+				63CC4EAF1D6C2A9500135419 /* QuartzCore.framework in Frameworks */,
+				63CC4EAD1D6C2A8D00135419 /* AddressBook.framework in Frameworks */,
+				63CC4EAB1D6C2A7E00135419 /* CoreLocation.framework in Frameworks */,
+				63CC4EA91D6C2A6A00135419 /* UIKit.framework in Frameworks */,
+				63CC4EA71D6C2A6100135419 /* AudioToolbox.framework in Frameworks */,
+				63CC4EA51D6C2A4E00135419 /* Foundation.framework in Frameworks */,
+				63CC4EA31D6C2A3900135419 /* AVFoundation.framework in Frameworks */,
 				63E983081D6A86C80017E598 /* libz.tbd in Frameworks */,
 				63E983061D6A86C10017E598 /* libstdc++.tbd in Frameworks */,
 				63E983041D6A86B40017E598 /* CoreTelephony.framework in Frameworks */,
@@ -69,6 +119,7 @@
 				63E983001D6A869C0017E598 /* CoreGraphics.framework in Frameworks */,
 				63E982FE1D6A86920017E598 /* SystemConfiguration.framework in Frameworks */,
 				63E982FC1D6A86890017E598 /* libiconv.tbd in Frameworks */,
+				63CC4EA11D6C2A0B00135419 /* iflyMSC.framework in Frameworks */,
 				63E982FA1D6A867A0017E598 /* Security.framework in Frameworks */,
 				DFDC856AC62FE17EC9A254DB /* libPods-cocopod3.a in Frameworks */,
 				63E982F81D6A85F70017E598 /* TencentOpenAPI.framework in Frameworks */,
@@ -81,6 +132,15 @@
 		539EA82FB0C0EC22D29C3EC5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				63CC4EB41D6C303200135419 /* MobileCoreServices.framework */,
+				63CC4EAE1D6C2A9500135419 /* QuartzCore.framework */,
+				63CC4EAC1D6C2A8D00135419 /* AddressBook.framework */,
+				63CC4EAA1D6C2A7E00135419 /* CoreLocation.framework */,
+				63CC4EA81D6C2A6A00135419 /* UIKit.framework */,
+				63CC4EA61D6C2A6100135419 /* AudioToolbox.framework */,
+				63CC4EA41D6C2A4E00135419 /* Foundation.framework */,
+				63CC4EA21D6C2A3900135419 /* AVFoundation.framework */,
+				63CC4EA01D6C2A0B00135419 /* iflyMSC.framework */,
 				63E983071D6A86C80017E598 /* libz.tbd */,
 				63E983051D6A86C10017E598 /* libstdc++.tbd */,
 				63E983031D6A86B40017E598 /* CoreTelephony.framework */,
@@ -116,6 +176,8 @@
 		63A439D21D6708F800FE1223 /* cocopod3 */ = {
 			isa = PBXGroup;
 			children = (
+				63CC4E9E1D6BF58E00135419 /* face.jpg */,
+				63CC4E8D1D6BE5BE00135419 /* TencentYoutuYun */,
 				63E982F51D6A85F70017E598 /* TencentOpenApi_IOS_Bundle.bundle */,
 				63A439D61D6708F800FE1223 /* AppDelegate.h */,
 				63A439D71D6708F800FE1223 /* AppDelegate.m */,
@@ -123,11 +185,17 @@
 				63A439DA1D6708F800FE1223 /* ViewController.m */,
 				63E983091D6A87C50017E598 /* MeViewController.h */,
 				63E9830A1D6A87C50017E598 /* MeViewController.m */,
+				63CC4E8A1D6BE48F00135419 /* ImageViewController.h */,
+				63CC4E8B1D6BE48F00135419 /* ImageViewController.m */,
+				63CC4EB01D6C2AEE00135419 /* IflyViewController.h */,
+				63CC4EB11D6C2AEE00135419 /* IflyViewController.m */,
 				63A439DC1D6708F800FE1223 /* Main.storyboard */,
 				63A439E21D6708F800FE1223 /* Assets.xcassets */,
 				63A439E41D6708F800FE1223 /* LaunchScreen.storyboard */,
 				63A439E71D6708F800FE1223 /* Info.plist */,
 				63A439DF1D6708F800FE1223 /* cocopod3.xcdatamodeld */,
+				63E9830F1D6AD63C0017E598 /* UIImage+CornerImage.h */,
+				63E983101D6AD63C0017E598 /* UIImage+CornerImage.m */,
 				63A439D31D6708F800FE1223 /* Supporting Files */,
 			);
 			path = cocopod3;
@@ -137,8 +205,32 @@
 			isa = PBXGroup;
 			children = (
 				63A439D41D6708F800FE1223 /* main.m */,
+				63CC4EB31D6C2BB300135419 /* Cocopods.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		63CC4E8D1D6BE5BE00135419 /* TencentYoutuYun */ = {
+			isa = PBXGroup;
+			children = (
+				63CC4E8E1D6BE5BE00135419 /* Auth.h */,
+				63CC4E8F1D6BE5BE00135419 /* Auth.m */,
+				63CC4E901D6BE5BE00135419 /* Conf.h */,
+				63CC4E911D6BE5BE00135419 /* Conf.m */,
+				63CC4E921D6BE5BE00135419 /* TXQcloudFrSDK.h */,
+				63CC4E931D6BE5BE00135419 /* TXQcloudFrSDK.m */,
+				63CC4E941D6BE5BE00135419 /* vendor */,
+			);
+			path = TencentYoutuYun;
+			sourceTree = "<group>";
+		};
+		63CC4E941D6BE5BE00135419 /* vendor */ = {
+			isa = PBXGroup;
+			children = (
+				63CC4E951D6BE5BE00135419 /* NSData+Base64.h */,
+				63CC4E961D6BE5BE00135419 /* NSData+Base64.m */,
+			);
+			path = vendor;
 			sourceTree = "<group>";
 		};
 		A6D3766F2B4C683881F13EE4 /* Pods */ = {
@@ -184,6 +276,7 @@
 				TargetAttributes = {
 					63A439CF1D6708F800FE1223 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = M2AF2RX6MY;
 					};
 				};
 			};
@@ -211,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				63E982F71D6A85F70017E598 /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
+				63CC4E9F1D6BF58E00135419 /* face.jpg in Resources */,
 				63A439E61D6708F800FE1223 /* LaunchScreen.storyboard in Resources */,
 				63A439E31D6708F800FE1223 /* Assets.xcassets in Resources */,
 				63A439DE1D6708F800FE1223 /* Main.storyboard in Resources */,
@@ -272,10 +366,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63CC4E991D6BE5BE00135419 /* TXQcloudFrSDK.m in Sources */,
+				63CC4E981D6BE5BE00135419 /* Conf.m in Sources */,
 				63A439DB1D6708F800FE1223 /* ViewController.m in Sources */,
+				63CC4E9A1D6BE5BE00135419 /* NSData+Base64.m in Sources */,
 				63A439D81D6708F800FE1223 /* AppDelegate.m in Sources */,
+				63E983111D6AD63C0017E598 /* UIImage+CornerImage.m in Sources */,
+				63CC4EB21D6C2AEE00135419 /* IflyViewController.m in Sources */,
+				63CC4E971D6BE5BE00135419 /* Auth.m in Sources */,
 				63A439D51D6708F800FE1223 /* main.m in Sources */,
 				63A439E11D6708F800FE1223 /* cocopod3.xcdatamodeld in Sources */,
+				63CC4E8C1D6BE48F00135419 /* ImageViewController.m in Sources */,
 				63E9830B1D6A87C50017E598 /* MeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -389,11 +490,17 @@
 			baseConfigurationReference = CF2B0FD6F60E494F66E4EE08 /* Pods-cocopod3.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/cocopod3",
+					"$(PROJECT_DIR)",
 				);
+				GCC_PREFIX_HEADER = "/Users/ouchougen/Desktop/MyFile/工作/Demo/why/cocopod3/cocopod3/Cocopods.pch";
 				INFOPLIST_FILE = cocopod3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -430,6 +537,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jingqi.cocopod3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -438,11 +546,17 @@
 			baseConfigurationReference = 16AAB70E7EF711732A7C105E /* Pods-cocopod3.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/cocopod3",
+					"$(PROJECT_DIR)",
 				);
+				GCC_PREFIX_HEADER = "/Users/ouchougen/Desktop/MyFile/工作/Demo/why/cocopod3/cocopod3/Cocopods.pch";
 				INFOPLIST_FILE = cocopod3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -479,6 +593,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jingqi.cocopod3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
